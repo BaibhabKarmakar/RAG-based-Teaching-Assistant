@@ -58,7 +58,7 @@ Make sure you have these installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/RAG_based_AI_teaching_assistant.git
+git clone [https://github.com/BaibhabKarmakar/RAG-based-Teaching-Assistant.git]
 cd RAG_based_AI_teaching_assistant
 ```
 
@@ -209,4 +209,4 @@ pip install scikit-learn pandas joblib requests openai python-dotenv faster-whis
 
 **Baibhab Karmakar**
 B.Tech IT, University of Calcutta
-[GitHub](https://github.com/BaibhabKarmakar) • [LinkedIn](https://linkedin.com/in/your-profile)
+[GitHub](https://github.com/BaibhabKarmakar) • [LinkedIn](https://www.linkedin.com/in/karmakarbaibhab/)
