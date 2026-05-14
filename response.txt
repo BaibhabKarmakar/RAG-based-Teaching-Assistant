@@ -1,0 +1,18 @@
+Interpretability is the ability to understand and explain how a machine learning model makes its predictions—essentially, it's about making the model's reasoning transparent and understandable to humans. This concept is covered in several videos in your course, with the main focus in the dedicated **"Interpretability"** video (number 25). Here are the key moments to watch:
+
+- **"Interpretability" video**  
+  - The topic is introduced at **0:00:17.1** – *"So the last topic for the class is interpretability."*  
+  - The core question of what an interpretable model is appears at **0:27:45.7** – *"So what's an interpretable model?"*  
+  - Discussion on explanatory capability continues around **0:11:09.0** – *"an explanatory capability that"* and at **0:14:36.9** – *"that was about explanation and rule acquisition capabilities."*  
+  - The trade-off with other properties is mentioned at **1:17:37.0** – *"robustness to data set shift, and interpretability."*
+
+- **"Risk Stratification Part 1" video** (number 4)  
+  - Interpretability as a key reason is explained at **0:31:51.5** – *"The second reason is one of interpretability."*  
+  - The performance vs. interpretability trade-off is highlighted at **1:06:09.9** – *"are you willing to trade performance for interpretability?"*
+
+- **"Fairness" video** (number 23)  
+  - Interpretability is briefly linked to transparency at **0:08:09.4** – *"some about transparency and interpretability."*
+
+The most comprehensive resource is the **"Interpretability"** video itself. For a quick definition, start around **0:00:17**, and for deeper exploration, jump to **0:27:45** where the instructor begins answering what interpretable models are. If you're interested in how interpretability fits into clinical machine learning, the **"Risk Stratification Part 1"** segments provide excellent context.
+
+Let me know if you'd like me to help with any other course-related questions!

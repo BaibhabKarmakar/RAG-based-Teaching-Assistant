@@ -1,0 +1,34 @@
+In this project we are going to build an AI based teaching assistant that will use RAG architecture . 
+There will be some sets of videos as source of data . 
+
+step 1 : 
+Converting these videos into audio files .
+Tools : ffmpeg 
+
+step 2 : 
+Chunking of the texts 
+As My laptop is not that good that's why I used faster-whisper with medium model instead of large model and also with int8 and beam_size = 1
+
+step 3 : 
+Text to embeddings (Vectorization)(lecture chunks and user Query)
+We used bge-m3 model runned locally through ollama to create embeddings and then we will transform it into pandas DataFrame .We are gonna make 2D arrays from the list of embeddings and then find the similarity between the query embeddings and lecture chunks embeddings to get the top most relevant embeddings .  
+
+step 4 : 
+Retrieval (RAG setup)
+We are setting up the prompt and also using deepseek API to call the model "deepseek-reasoner" as it requires atleast 24 gb RAM to run . but I have only 8GB RAM available in my system. 
+I was first trying to run the LLM through ollama in local machine but it was not possible with low configuration . 
+So , I paid 2.12$ to deepseek to make some requests to the model "deepseek-reasoner" , guessing that this is the best fit model for my RAG project . 
+
+Step 5 : 
+Get response form LLM and see how the magic works! . I have successfully completed a basic RAG based teaching assistant . 
+
+At-least this is the version 1 for the project . 
+
+
+
+
+
+
+
+
+

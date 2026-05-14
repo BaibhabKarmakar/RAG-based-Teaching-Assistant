@@ -1,0 +1,30 @@
+# Environment
+.env
+RAGenv/
+
+# Large data files
+Videos/
+audios/
+unused/
+*.json
+*.joblib
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code
+.vscode/
+
+# Windows junk
+Thumbs.db
+desktop.ini
+
+# Only exclude transcript jsons
+jsons/
+new_jsons/
+transcripts/
+
+
+
