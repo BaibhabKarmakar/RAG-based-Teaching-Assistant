@@ -9,7 +9,21 @@ An AI-powered teaching assistant built using **Retrieval-Augmented Generation (R
 ```
 Videos → Audio → Text Chunks → Embeddings → Vector Search → LLM → Answer
 ```
-
+## The flowchart 
+```mermaid
+flowchart TD
+    A[📁 Lecture Videos] --> B[🎵 Convert to Audio\nffmpeg]
+    B --> C[📝 Transcribe & Chunk\nfaster-whisper]
+    C --> D[🔢 Generate Embeddings\nbge-m3 via Ollama]
+    D --> E[💾 Store as DataFrame\njoblib]
+    F[❓ User Query] --> G[🔢 Query Embedding\nbge-m3 via Ollama]
+    G --> H[🔍 Cosine Similarity Search]
+    E --> H
+    H --> I[📋 Top Relevant Chunks]
+    I --> J[🤖 DeepSeek Reasoner API]
+    F --> J
+    J --> K[✅ Answer with Timestamps]
+```
 ### Pipeline Overview
 
 | Step | Description | Tools Used |
